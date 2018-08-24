@@ -1,9 +1,8 @@
 import React from 'react';
-import {ShotChart} from "./ShotChart"
 import _ from 'lodash';
-import { Slider, InputNumber, Row, Col } from 'antd';
-import { Radio, Switch } from 'antd';
-import {CountSlider} from "./CounterSlider"
+import { ShotChart } from './ShotChart';
+import { CountSlider } from './CountSlider';
+import { Radio, Row, Col, Switch } from 'antd';
 
 const RadioGroup = Radio.Group;
 
